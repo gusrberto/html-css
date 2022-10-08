@@ -1,1 +1,1 @@
-Teste de commit GitHub
+Repositório para armazenar códigos de html e css
