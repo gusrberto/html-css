@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: rgb(88, 88, 88);
+            padding: 3px;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.329);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            width: 600px;
+            margin: 10px auto 10px auto;
+            border-radius: 10px;
+        }
+
+        #assuntos {
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding: 1px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+            margin: 15px 5px 15px 5px;
+            border-radius: 5px;
+            box-shadow: 5px 4px 7px 1px rgba(0, 0, 0, 0.281);
+        }
+
+        article > aside {
+            background-color: rgb(143, 143, 143);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia Entretenimento</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum placeat eaque beatae tempore expedita quae nesciunt optio maiores nam? Debitis quo laborum earum sit, animi deserunt totam! Amet, quas?</p>
+                <aside>
+                    <p>Artigo escrito por João Alves</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Política</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quaerat dicta explicabo quae assumenda quasi accusantium ut necessitatibus placeat similique! Quibusdam odit deserunt numquam soluta laudantium ullam non officiis incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum porro neque odio animi tenetur quibusdam. Assumenda neque illo unde? Inventore nisi quaerat nam sunt dolor ipsam similique aspernatur fuga.</p>
+                <aside>
+                    <p>Artigo escrito por Maria Josefina</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eos incidunt, enim, laborum ratione ducimus est, sint ipsum quis possimus corrupti! Veniam delectus nulla maxime esse quos blanditiis, assumenda quasi.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores ab ipsam laudantium facilis consequatur, beatae atque enim consequuntur quaerat inventore maiores aperiam blanditiis. Explicabo quae rem omnis magni quis corrupti!</p>
+                <aside>
+                    <p>Artigo escrito por Galvão Bueno</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Entretenimento</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia harum architecto obcaecati delectus blanditiis provident. Reprehenderit architecto magni ad ut facere odit! Enim magnam, asperiores corrupti perspiciatis deserunt corporis voluptates.</p>
+                <aside>
+                    <p>Artigo escrito por Leonardo Dicaprio</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>
